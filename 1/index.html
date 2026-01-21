@@ -2,94 +2,141 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Tony Stark | Java Full Stack Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dilliraj | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Background 3D Shapes -->
-  <div class="bg-shapes">
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-    <div class="shape"></div>
-  </div>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="container">
-      <h1>Hi, I'm <span class="highlight">Dilliraj</span></h1>
-      <p class="tagline">Frontend Developer | UI Designer | Web Enthusiast</p>
-    </div>
-  </header>
+<!-- Floating Background -->
+<div class="bg-shapes">
+  <div class="shape"></div>
+  <div class="shape"></div>
+  <div class="shape"></div>
+  <div class="shape"></div>
+</div>
 
-  <!-- About -->
-  <section class="about">
-    <div class="container">
-      <h2>About Me</h2>
+<!-- HERO -->
+<header class="hero split-hero">
+  <div class="container hero-grid">
+
+    <div class="hero-text">
+      <h1>Iam Dilliraj</h1>
+      <h1>
+        Java <span class="gradient-text">Full Stack</span><br>
+        Developer
+      </h1>
       <p>
-        I’m a creative <strong>Frontend Developer</strong> who loves designing vibrant, user-friendly, and 
-        modern websites. My passion lies in blending <em>design & code</em> to create immersive experiences.  
-        With experience in building responsive layouts, I enjoy experimenting with colors, 
-        animations, and interactive UI elements.
+        Building scalable backend systems with modern, responsive UI.
       </p>
+      <a href="#projects" class="cta-btn">View Projects</a>
     </div>
-  </section>
 
-  <!-- Skills -->
-  <section class="skills">
-    <div class="container">
-      <h2>My Skills</h2>
-      <div class="skill-box">
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>JavaScript</span>
-        <span>Bootstrap</span>
-        <span>Responsive Design</span>
-        <span>React (Basics)</span>
-        <span>Git & GitHub</span>
+    <div class="hero-card">
+      <h3>Tech Stack</h3>
+      <ul>
+        <li> Java</li>
+        <li> Spring Boot</li>
+        <li> MySQL</li>
+        <li> REST APIs</li>
+        <li> HTML • CSS • JavaScript</li>
+       <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4a3bb035-a2c6-4fdc-8e79-86d28bcdb537" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      </ul>
+    </div>
+
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section class="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>
+      I am a <strong>Java Full Stack Developer</strong> with hands-on experience
+      in developing end-to-end web applications using
+      <strong>Java, Spring Boot, JSP, Servlets, JDBC, MySQL</strong>.
+      I enjoy solving real-world problems and building secure, scalable systems.
+    </p>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skill-box">
+      <span>Java</span>
+      <span>Spring Boot</span>
+      <span>JSP</span>
+      <span>Servlets</span>
+      <span>REST API</span>
+      <span>MySQL</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Bootstrap</span>
+      <span>Git & GitHub</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="project-card">
+        <h3>🩸 Blood Donation Management System</h3>
+        <p>
+          Full stack Java application to manage donors, hospitals,
+          and blood requests using JSP, Servlets, JDBC & MySQL.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <!-- Projects -->
-  <section class="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>🌐 Portfolio Website</h3>
-          <p>Responsive portfolio design with animated 3D background and modern sections.</p>
-        </div>
-        <div class="project-card">
-          <h3>📱 Mobile App UI</h3>
-          <p>Concept UI/UX design for a mobile app using pure HTML & CSS layouts.</p>
-        </div>
-        <div class="project-card">
-          <h3>🍔 Restaurant Website</h3>
-          <p>Food ordering and restaurant showcase site with creative menu design.</p>
-        </div>
-        <div class="project-card">
-          <h3>🛒 E-commerce Landing Page</h3>
-          <p>Colorful product showcase landing page with grid-based layout.</p>
-        </div>
+      <div class="project-card">
+        <h3> Logistics Management System</h3>
+        <p>
+          Spring Boot application for tarcking orders, delivery,
+          and appointments with REST APIs.
+        </p>
       </div>
-    </div>
-  </section>
 
-  <!-- Contact -->
-  <section class="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>Email: <a href="mailto:dilliraj@example.com">dillirajsudhakar30@gmail.com</a></p>
-      <p>Phone: +91 7667156778</p>
-      <p>Location: Chennai, India</p>
-    </div>
-  </section>
+      <div class="project-card">
+        <h3>🔐 User Authentication System</h3>
+        <p>
+          Secure login & registration system with session handling
+          and role-based access.
+        </p>
+      </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2025 Dilliraj | All Rights Reserved</p>
-  </footer>
+      <div class="project-card">
+        <h3>🌐 Portfolio Website</h3>
+        <p>
+          Responsive portfolio website built using HTML, CSS,
+          JavaScript with modern UI effects.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:dillirajsudhakae30@gmail.com">dillirajsudhakar30@gmail.com</a></p>
+    <p>Phone: +91 7667156778</p>
+    <p>Location: Chennai, India</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Dilli Raj | Java Full Stack Developer</p>
+</footer>
+
 </body>
 </html>
